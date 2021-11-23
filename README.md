@@ -1,36 +1,5 @@
 # Document Annotation
 
-- Rule of thumb. "Once you are in the annotator GUI, before annotating each file, make sure you do (1) new name (e.g., GTJ), (2) click ""copy"", (3) click ""store"".
-
-Make sure you always store the intermediary annotations."
-
-        
-
-- Command in GUI.        awsd for +/- size  and ijkl for position shift
-
- 
-
-- Multiple select in the document.        "You select them via click+drag
-
-bounding boxes can be copied by pressing 'c'
-
-then you can unselect, move your cursor to a position you want and press 'v'
-
- 
-
-If you select a category in the drop-down on the top left, they pasted annotations will all be of that selected category"
-
- 
-
-- Add a new annotation in the tree.    "either via the (+) button next to the drop-down on the top left
-
-or by pressing ""Add"" on a node in the tree
-
-they'll always be added on the very bottom of the children
-
-of the currently selected node in the tree"
-
-
 **Document Annotation** is a tool for annotating multi-page documents,
 built with [React](https://reactjs.org/) and [Redux](https://redux.js.org/)
 (front-end) and [Express](http://expressjs.com/) (back-end).
@@ -104,3 +73,35 @@ It is structured as follows:
     - PDF document: `example.pdf`
     - Page images: `example-0.png`, `example-1.png`, etc.
     - Annotations: `example-original.json`, `example-draft.json`, etc.
+
+## Annotation Guidelines
+- Rule of thumb. "Once you are in the annotator GUI, before annotating each file, make sure you do (1) new name (e.g., GTJ), (2) click ""copy"", (3) click ""store"".
+
+Make sure you always store the intermediary annotations."
+
+        
+
+- Command in GUI.        awsd for +/- size  and ijkl for position shift
+
+ 
+
+- Multiple select in the document.        "You select them via click+drag
+
+bounding boxes can be copied by pressing 'c'
+
+then you can unselect, move your cursor to a position you want and press 'v'
+
+ 
+
+If you select a category in the drop-down on the top left, they pasted annotations will all be of that selected category"
+
+ 
+
+- Add a new annotation in the tree.    "either via the (+) button next to the drop-down on the top left
+
+or by pressing ""Add"" on a node in the tree
+
+they'll always be added on the very bottom of the children
+
+of the currently selected node in the tree"
+
